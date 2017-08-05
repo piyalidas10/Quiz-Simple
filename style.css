@@ -1,0 +1,16 @@
+body{ background: #002749;}
+.navbar{background-color: #ff431a;border-radius: 0;border: none;}
+.navbar-default .navbar-brand{color: #FFF; text-decoration:none; background-color:transparent;}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{color: #FFF; text-decoration:none; background-color:transparent;}
+.navbar-default .navbar-nav > li{border-right: 1px solid rgba(255, 255, 255, 0.24);}
+.navbar-default .navbar-nav > li:last-child{border-right:none;}
+.navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > .active > a{color: #FFF;background-color:transparent;}
+.navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{color:#FFF;}
+.quizContent{background: rgba(0,0,0,0.4); padding: 15px;}
+.quizBox{ margin-top: 10px; margin-bottom: 20px;} 
+.quizBox h4{color: #FFF;}
+.quizBox h4 span{ display: inline-block; width: 24px; height: 24px; vertical-align: middle; text-align: center; background: #ff4e31; color: #FFF; font-weight: bold;border-radius: 50%; line-height: 24px; margin-right: 5px;font-size: 14px;}
+.quizBox h4 div{display: inline-block;font-size: 14px;}
+.quizBox .options input{ margin-right: 8px;}
+.quizOptions{color: #CCC;}
+.showResult{ margin: 20px 0 10px 0;color:#FFF;}
