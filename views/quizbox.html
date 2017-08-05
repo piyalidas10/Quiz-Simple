@@ -1,0 +1,23 @@
+		
+		<div class="quizBox col-xs-12" ng-repeat="(key,value) in questions | groupBy: 'question_id'">
+				<h4><span>{{key}}</span>
+				 	<!--<div ng-repeat="qs in value">{{qs.question}}</div>-->
+				 	<div ng-repeat="(key1,value1) in value | groupBy: 'question'">{{key1}}</div>
+				</h4>
+			
+			<div class="quizOptions col-xs-12">
+			
+				
+					<input type="hidden" name="starttime{{key}}" value="7/27/2017 4:04:33 AM">					
+					<div class="options" ng-repeat="option in value">
+						<label for="ans{{option.choice_id}}">
+							<input type="radio" name="ques{{option.question_id}}" id="{{option.choice_id}}" value="{{option.choice_id}}" ng-model="ans[option.question_id]">{{option.choice}}
+						</label>
+					</div>					
+				
+				
+			</div>	
+			
+		</div>
+		
+		
